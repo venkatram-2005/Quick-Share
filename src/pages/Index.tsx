@@ -31,7 +31,7 @@ const Index = () => {
               <Share className="w-5 h-5 text-white" />
             </div>
             <h1 className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-              ShareIt
+              Quick Share
             </h1>
           </div>
         </div>
@@ -154,7 +154,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="container mx-auto px-4 py-8 mt-16 border-t border-gray-200">
         <div className="text-center text-gray-500 text-sm">
-          <p>ShareIt - Anonymous, temporary text sharing website by Venkatram, India.</p>
+          <p>Quick Share - Anonymous, temporary text sharing website by Venkatram, India.</p>
         </div>
       </footer>
     </div>
