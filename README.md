@@ -94,6 +94,6 @@ This project is licensed under the **MIT License**.
 
 ## 🔗 Live Demo
 
-📍 [quick-share-now.vercel.app](https://quick-share-now.vercel.app) *(Replace with your deployed URL if not set up yet)*
+📍 [quick-share-now.vercel.app](https://quick-share-now.vercel.app) 
 
 ```
