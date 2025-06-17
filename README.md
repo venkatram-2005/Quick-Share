@@ -11,7 +11,7 @@
 - 🔗 Unique shareable links
 - 🔒 End-to-end encryption for sensitive data 
 - ⚡ Fast, responsive, and mobile-friendly UI
-- ☁️ Supabase-powered backend (Auth, DB, Storage)
+- ☁️ Supabase-powered backend (DB, Storage)
 
 ---
 
