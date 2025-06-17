@@ -82,7 +82,7 @@ quick-share/
 ├── tsconfig.app.json      # App-specific TS settings
 ├── tsconfig.node.json     # Node-specific TS settings
 ├── vite.config.ts         # Vite configuration
-
+```
 
 ---
 
