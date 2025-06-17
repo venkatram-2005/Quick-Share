@@ -1,73 +1,102 @@
-# Welcome to your Lovable project
+# 🚀 Quick Share
+**Quick Share** is a lightweight and responsive web app designed for fast and secure text and file sharing. Whether you're sharing quick notes or sending important files, Quick Share gives you a seamless experience with a clean UI, unique shareable links, and optional data expiry — all powered by Supabase and built with modern frontend tools.
+**Quick Share** is a sleek and minimal web app for seamless text and file sharing. Built with **React + TypeScript + Vite**, it leverages **Supabase** for backend services and uses **ShadCN UI** for an elegant and accessible user interface.
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/a54a971d-3871-49be-934a-1c87acc8be6f
+## ✨ Features
 
-## How can I edit this code?
+- 📄 Instantly share text snippets
+- 📁 Secure file sharing with auto-expiry
+- 🔗 Unique shareable links
+- 🔒 End-to-end encryption for sensitive data 
+- ⚡ Fast, responsive, and mobile-friendly UI
+- ☁️ Supabase-powered backend (Auth, DB, Storage)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🛠️ Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a54a971d-3871-49be-934a-1c87acc8be6f) and start prompting.
+| Frontend             |  Backend / Services        |  UI / Styling         |
+|----------------------|----------------------------|---------------------- |
+| React + TypeScript   | Supabase (Database + Auth) | ShadCN + Tailwind CSS |
+| Vite (Bundler)       | React Query (data sync)    | Lucide Icons          |
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📦 Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 1. Clone the Repository
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+git clone https://github.com/venkatram-2005/Quick-Share.git
+cd Quick-Share
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 2. Install Dependencies
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+npm install
+# or
+yarn install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 3. Start the Development Server
+
 npm run dev
+# or
+yarn dev
+
+Your app will be running at [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 📁 Scripts
+
+| Script    | Description                   |
+| --------- | ----------------------------- |
+| `dev`     | Runs the app in dev mode      |
+| `build`   | Builds the app for production |
+| `preview` | Preview the production build  |
+| `lint`    | Runs ESLint on codebase       |
+
+---
+
+## 📂 Project Structure
+
+quick-share/
+├── public/                # Static files (favicon, etc.)
+├── src/                   # Main source code
+│   ├── components/        # Reusable UI components
+│   ├── lib/               # Utility functions (Supabase, helpers)
+│   ├── pages/             # App pages/routes (e.g., TextShare, FileUpload)
+│   ├── hooks/             # Custom React hooks
+│   ├── index.tsx          # Entry point
+│   └── App.tsx            # Root component
+├── supabase/              # Supabase-related config / SQL / seed scripts
+├── .gitignore             # Ignored files and folders for git
+├── README.md              # Project documentation
+├── bun.lockb              # Bun package lock (if using Bun)
+├── components.json        # ShadCN-generated config
+├── eslint.config.js       # ESLint configuration
+├── index.html             # Root HTML file (for Vite)
+├── package.json           # Project metadata and scripts
+├── package-lock.json      # NPM lock file
+├── postcss.config.js      # PostCSS configuration
+├── tailwind.config.ts     # Tailwind CSS configuration
+├── tsconfig.json          # Global TypeScript configuration
+├── tsconfig.app.json      # App-specific TS settings
+├── tsconfig.node.json     # Node-specific TS settings
+├── vite.config.ts         # Vite configuration 
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🔗 Live Demo
+
+📍 [quick-share-now.vercel.app](https://quick-share-now.vercel.app) *(Replace with your deployed URL if not set up yet)*
+
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a54a971d-3871-49be-934a-1c87acc8be6f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
