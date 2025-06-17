@@ -34,16 +34,11 @@ cd Quick-Share
 
 ### 2. Install Dependencies
 
-
 npm install
-# or
-yarn install
 
 ### 3. Start the Development Server
 
 npm run dev
-# or
-yarn dev
 
 Your app will be running at [http://localhost:5173](http://localhost:5173)
 
@@ -62,6 +57,7 @@ Your app will be running at [http://localhost:5173](http://localhost:5173)
 
 ## 📂 Project Structure
 
+```text
 quick-share/
 ├── public/                # Static files (favicon, etc.)
 ├── src/                   # Main source code
@@ -85,7 +81,8 @@ quick-share/
 ├── tsconfig.json          # Global TypeScript configuration
 ├── tsconfig.app.json      # App-specific TS settings
 ├── tsconfig.node.json     # Node-specific TS settings
-├── vite.config.ts         # Vite configuration 
+├── vite.config.ts         # Vite configuration
+
 
 ---
 
