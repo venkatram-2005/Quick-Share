@@ -58,11 +58,11 @@ const CreateRoom = () => {
   };
 
   const copyRoomLink = () => {
-    const roomUrl = `${window.location.origin}/room/${roomCode}`;
+    const roomUrl = `${roomCode}`;
     navigator.clipboard.writeText(roomUrl);
     toast({
       title: "Link copied!",
-      description: "Room link has been copied to your clipboard.",
+      description: "Room Code has been copied to your clipboard.",
     });
   };
 
@@ -101,7 +101,7 @@ const CreateRoom = () => {
                   className="w-full bg-blue-600 hover:bg-blue-700"
                 >
                   <Copy className="w-4 h-4 mr-2" />
-                  Copy Room Link
+                  Copy Room Code
                 </Button>
                 
                 <Button

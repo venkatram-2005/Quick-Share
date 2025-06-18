@@ -150,14 +150,14 @@ const Room = () => {
               <span className="font-mono text-sm font-medium">{timeLeft}</span>
             </div>
             
-            <Button
+            {/* <Button
               onClick={copyRoomLink}
               variant="outline"
               className="bg-white/80 backdrop-blur-sm"
             >
               <Copy className="w-4 h-4 mr-2" />
               Share Link
-            </Button>
+            </Button> */}
           </div>
         </div>
 
